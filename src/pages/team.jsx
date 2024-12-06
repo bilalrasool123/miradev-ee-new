@@ -13,14 +13,14 @@ const Team = () => {
   const { id } = router.query; // Get the dynamic parameters
   const [teamData, setTeamData] = useState(null);
   const [error, setError] = useState(null);
-  console.log(id)
+  // console.log(id)
 
   // Avoid triggering fetch before the router is ready
   useEffect(() => {
     // if (!id) return; // Avoid running the fetch when id is not available
     
     const fetchServiceData = async () => {
-      console.log(`/api/TeamData/${id}?language=${language || 'en'}`)
+      // console.log(`/api/TeamData/${id}?language=${language || 'en'}`)
       try {
         const res = await fetch(`/api/TeamData/${id}?language=${language || 'en'}`);
         if (!res.ok) {
@@ -41,7 +41,7 @@ const Team = () => {
     return <div>Loading...</div>;  // You can show a loading state until the router is ready or data is fetched
   }
 
-  console.log(teamData[1]?.image)
+  // console.log(teamData[1]?.image)
 
   return (
     <Layouts header={2} footer={2} darkHeader>

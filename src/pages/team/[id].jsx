@@ -15,7 +15,7 @@ const TeamDetail = () => {
   const { id } = router.query; // Get the dynamic parameters
   const [memberData, setMemberData] = useState(null);
   const [error, setError] = useState(null);
-  console.log(id)
+  // console.log(id)
 
   useEffect(() => {
     if (!id) return; // Avoid running the fetch when id is not available
