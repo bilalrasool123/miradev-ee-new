@@ -176,7 +176,7 @@ const Contact = () => {
       <PageBanner
         pageTitle={t("Contact Us")}
         pageDesc={t(
-          "Have ideas for your business? Let’s build something awesome together."
+          "Have ideas for your business? Let’s build something awesome together"
         )}
       />
 

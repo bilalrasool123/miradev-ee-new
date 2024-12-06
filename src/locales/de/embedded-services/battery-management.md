@@ -2,44 +2,45 @@
 #preview details
 image: "/images/battery-management-3.jpg"
 icon: "/images/serv-icon1.png"
-title: "de Battery Management"
-short: "We develop software for you that monitors and controls batteries to increase their service life, performance and safety."
+title: "Batteriemanagement"
+short: "Wir entwickeln Software für Sie, die Batterien überwacht und steuert, um ihre Lebensdauer, Leistung und Sicherheit zu erhöhen."
 
 #full details
 accordion:
   enabled: 1
-  title: Solving Business Problems
+  title: Lösung von Geschäftsproblemen
   items:
-    - heading: Secure Management and Workforce?
+    - heading: Sicheres Management und Arbeitskräfte?
       content: Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi.
 
-    - heading: Logistics Workforce on Track?
+    - heading: Logistik-Arbeitskräfte auf Kurs?
       content: Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi.
 
-    - heading: Online Courses & Certification?
+    - heading: Online-Kurse und Zertifizierung?
       content: Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi.
 
-    - heading: Figures and data representative of an organization's?
-      content: Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi.
+    - heading: Zahlen und Daten repräsentativ für eine Organisation?
+      content: Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi.
 
 additional:
   enabled: 1
-  content: "<h3>Highest Expectations</h3>
-		        <p>Our battery management systems are engineered to enhance the performance, longevity, and safety of your batteries.</p> 
+  content: "<h3>Höchste Erwartungen</h3>
+		        <p>Unsere Batteriemanagementsysteme sind darauf ausgelegt, die Leistung, Lebensdauer und Sicherheit Ihrer Batterien zu maximieren.</p> 
 		<ul>
       <li>
-      Robust protections against overcharging
+      Robuste Schutzmechanismen gegen Überladung
       </li>
       <li>
-      Maximum energy usage
+      Maximale Energienutzung
       </li>
       <li>
-      Meeting industry standards
+      Erfüllung der Branchenstandards
       </li>
 		</ul>
   "
+
 ---
 
-### Introduction
+### Einführung
 
-Our battery management systems are designed to maximize the performance, longevity, and safety of your batteries. Leveraging advanced technologies and innovative engineering, we develop comprehensive solutions that monitor and control battery operations in real-time.
+Unsere Batteriemanagementsysteme sind so konzipiert, dass sie die Leistung, Lebensdauer und Sicherheit Ihrer Batterien maximieren. Durch den Einsatz fortschrittlicher Technologien und innovativer Ingenieurkunst entwickeln wir umfassende Lösungen, die den Betrieb von Batterien in Echtzeit überwachen und steuern.

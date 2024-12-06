@@ -73,12 +73,12 @@
         "link": "/projects",
         "children": [
           {
-            "label": "Embedded Solutions",
+            "label": "Embedded Projects",
             "link": "/embedded-projects",
             "children": 0
           },
           {
-            "label": "Digital Solutions",
+            "label": "Digital Projects",
             "link": "/digital-projects",
             "children": 0
           }

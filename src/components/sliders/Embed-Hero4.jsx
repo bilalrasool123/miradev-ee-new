@@ -5,7 +5,9 @@ import Link from "next/link";
 import { useTranslate } from "@/src/contexts/TranslateContext"; // Import the translation hook
 
 const EmbedHero4Slider = () => {
-  const { t } = useTranslate(); // Initialize the translation function
+  const { t, i18n } = useTranslate(); // Ensure you have access to `i18n` or equivalent
+  const embeddedProjects = i18n.t("embedded_projects.items", { returnObjects: true });
+  // console.log(embeddedProjects)
 
   return (
     <>
@@ -15,7 +17,7 @@ const EmbedHero4Slider = () => {
           {...sliderProps.hero4Slider}
           className="swiper-container onovo-hero-parallax js-hero-parallax"
         >
-          {Data.items.map((item, key) => (
+          {embeddedProjects.map((item, key) => (
             <SwiperSlide key={`h4s-slide-${key}`} className="swiper-slide">
               <div className="onovo-hero-parallax-section">
                 <div

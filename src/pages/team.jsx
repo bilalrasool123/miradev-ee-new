@@ -1,21 +1,53 @@
 import PageBanner from "@components/PageBanner";
 import Layouts from "@layouts/Layouts";
 import Link from "next/link";
-
-import { getSortedTeamData } from "@library/team";
-
 import CallToActionSection from "@components/sections/CallToAction";
 import PartnersSection from "@components/sections/Partners";
 import { useTranslate } from "../contexts/TranslateContext";
+import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
 
-const Team = (props) => {
-  const { t } = useTranslate();
+const Team = () => {
+  const { t, language } = useTranslate(); // Ensure you have access to i18n or equivalent
+  const router = useRouter();
+  const { id } = router.query; // Get the dynamic parameters
+  const [teamData, setTeamData] = useState(null);
+  const [error, setError] = useState(null);
+  console.log(id)
+
+  // Avoid triggering fetch before the router is ready
+  useEffect(() => {
+    // if (!id) return; // Avoid running the fetch when id is not available
+    
+    const fetchServiceData = async () => {
+      console.log(`/api/TeamData/${id}?language=${language || 'en'}`)
+      try {
+        const res = await fetch(`/api/TeamData/${id}?language=${language || 'en'}`);
+        if (!res.ok) {
+          throw new Error('Failed to fetch data');
+        }
+        const data = await res.json();
+        setTeamData(data);
+      } catch (error) {
+        setError(error.message);
+      }
+    };
+
+    fetchServiceData();
+  }, [id, language]); // Dependency on id and language
+
+  if (!router.isReady || !teamData) {
+    // Ensure this renders the same on both server and client
+    return <div>Loading...</div>;  // You can show a loading state until the router is ready or data is fetched
+  }
+
+  console.log(teamData[1]?.image)
 
   return (
     <Layouts header={2} footer={2} darkHeader>
       <PageBanner
         pageTitle={t("Our Team")}
-        pageDesc={t("Meet our creativity company family.")}
+        pageDesc={t("Meet our creative company family")}
       />
 
       {/* Onovo Team */}
@@ -23,7 +55,7 @@ const Team = (props) => {
         <div className="container">
           {/* Team items */}
           <div className="row gap-row align-center">
-            {props.team.map((item, key) => (
+            {teamData?.map((item, key) => (
               <div
                 key={`team-item-${key}`}
                 className="col-xs-12 col-sm-12 col-md-6 col-lg-4"
@@ -40,7 +72,7 @@ const Team = (props) => {
                       </Link>
                       <div className="onovo-social-2">
                         <ul>
-                          {item.social.map((link, link_key) => (
+                          {item.social?.map((link, link_key) => (
                             <li key={`team-item-${key}-link-${link_key}`}>
                               <a
                                 key={`teamsocial-item-${link_key}`}
@@ -98,12 +130,12 @@ const Team = (props) => {
 };
 export default Team;
 
-export async function getStaticProps() {
-  const allTeam = getSortedTeamData();
+// export async function getStaticProps() {
+//   const allTeam = getSortedTeamData();
 
-  return {
-    props: {
-      team: allTeam,
-    },
-  };
-}
+//   return {
+//     props: {
+//       team: allTeam,
+//     },
+//   };
+// }

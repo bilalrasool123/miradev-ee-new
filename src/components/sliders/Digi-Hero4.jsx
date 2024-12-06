@@ -5,7 +5,8 @@ import Link from "next/link";
 import { useTranslate } from "@/src/contexts/TranslateContext"; // Import the translation hook
 
 const DigiHero4Slider = () => {
-  const { t } = useTranslate(); // Initialize the translation function
+  const { t, i18n } = useTranslate(); // Ensure you have access to `i18n` or equivalent
+  const digitalProjects = i18n.t("digital_projects.items", { returnObjects: true });
 
   return (
     <>
@@ -15,7 +16,7 @@ const DigiHero4Slider = () => {
           {...sliderProps.hero4Slider}
           className="swiper-container onovo-hero-parallax js-hero-parallax"
         >
-          {Data.items.map((item, key) => (
+          {digitalProjects.map((item, key) => (
             <SwiperSlide key={`h4s-slide-${key}`} className="swiper-slide">
               <div className="onovo-hero-parallax-section">
                 <div

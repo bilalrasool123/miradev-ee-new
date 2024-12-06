@@ -2,66 +2,52 @@
 #preview details
 image: "/images/embedded-engineering-2.jpg"
 icon: "/images/serv-icon6.png"
-title: "de Embedded Engineering"
-short: "We develop electronic systems for you that are embedded in other devices, such as cars, airplanes, household appliances and cell phones."
+title: "Embedded Engineering"
+short: "Wir entwickeln elektronische Systeme für Sie, die in anderen Geräten eingebettet sind, wie Autos, Flugzeugen, Haushaltsgeräten und Handys."
 
 #full details
 accordion:
   enabled: 1
-  title: Solving Business Problems
+  title: Lösung von Geschäftsproblemen
   items:
-    - heading: What measures do you have in place to ensure the security of our data and information?
-      content: We employ a multi-layered approach to data security, including encryption, access controls, and regular security audits. Our systems are designed to meet or exceed industry standards for data protection.
+    - heading: Welche Maßnahmen haben Sie ergriffen, um die Sicherheit unserer Daten und Informationen zu gewährleisten?
+      content: Wir verfolgen einen mehrschichtigen Ansatz zur Datensicherheit, einschließlich Verschlüsselung, Zugangskontrollen und regelmäßiger Sicherheitsüberprüfungen. Unsere Systeme sind darauf ausgelegt, die branchenüblichen Standards für den Datenschutz zu erfüllen oder zu übertreffen.
 
-    - heading: How do you ensure that our sensitive information is protected from unauthorized access?
-      content: We utilize advanced authentication methods, such as  two-factor authentication to restrict access to sensitive information. Additionally, our security protocols are continuously monitored and updated to address emerging threats.
+    - heading: Wie stellen Sie sicher, dass unsere sensiblen Informationen vor unbefugtem Zugriff geschützt sind?
+      content: Wir nutzen fortschrittliche Authentifizierungsmethoden, wie die Zwei-Faktor-Authentifizierung, um den Zugang zu sensiblen Informationen zu beschränken. Darüber hinaus werden unsere Sicherheitsprotokolle kontinuierlich überwacht und aktualisiert, um auf neue Bedrohungen zu reagieren.
 
-    - heading: Can you provide details about your company's security protocols and certifications?
-      content: We adhere to rigorous security protocols based on industry best practices and standards, such as ISO 27001 and SOC 2. Our commitment to security is further demonstrated through our certifications and compliance with relevant regulatory requirements.
+    - heading: Können Sie Details zu den Sicherheitsprotokollen und Zertifizierungen Ihres Unternehmens geben?
+      content: Wir halten uns an strenge Sicherheitsprotokolle, die auf den besten Praktiken und Standards der Branche basieren, wie z. B. ISO 27001 und SOC 2. Unser Engagement für Sicherheit wird durch unsere Zertifizierungen und die Einhaltung relevanter gesetzlicher Anforderungen weiter unterstrichen.
 
-    - heading: How do you handle security breaches or incidents?
-      content: In the event of a security breach or incident, we have established incident response procedures to swiftly mitigate the threat and minimize the impact on our clients. Our dedicated team of security experts conducts thorough investigations and implements remediation measures to prevent future occurrences.
+    - heading: Wie gehen Sie mit Sicherheitsverletzungen oder Vorfällen um?
+      content: Im Falle einer Sicherheitsverletzung oder eines Vorfalls haben wir etablierte Verfahren zur Reaktion auf Vorfälle, um die Bedrohung schnell zu mindern und die Auswirkungen auf unsere Kunden zu minimieren. Unser engagiertes Sicherheitsteam führt gründliche Untersuchungen durch und implementiert Maßnahmen zur Behebung und Vermeidung zukünftiger Vorfälle.
 
-    - heading: What steps do you take to ensure the safety and security of our employees and contractors?
-      content: Employee and contractor safety is paramount to us. We provide comprehensive training on security awareness and emergency response procedures. Additionally, we conduct regular assessments of workplace safety and security measures to identify and address any vulnerabilities. 
+    - heading: Welche Schritte unternehmen Sie, um die Sicherheit und den Schutz unserer Mitarbeiter und Auftragnehmer zu gewährleisten?
+      content: Die Sicherheit unserer Mitarbeiter und Auftragnehmer hat für uns höchste Priorität. Wir bieten umfassende Schulungen zur Sicherheitsbewusstseinsbildung und zu Notfallmaßnahmen an. Darüber hinaus führen wir regelmäßig Bewertungen der Arbeitsplatzsicherheit und der Sicherheitsmaßnahmen durch, um potenzielle Schwachstellen zu identifizieren und zu beheben.
 
-    - heading: How often do you conduct security audits and assessments?
-      content: We conduct regular security audits and assessments to evaluate the effectiveness of our security controls and identify areas for improvement. These audits are conducted by both internal teams and third-party security experts to ensure impartiality and thoroughness.
-
-    - heading: What role does employee training play in maintaining a secure work environment?
-      content: Employee training is integral to maintaining a secure work environment. We provide ongoing training and awareness programs to educate employees about cybersecurity best practices, data handling procedures, and potential security threats.
-
-    - heading: How do you address physical security concerns at our facilities or workplaces?
-      content: We implement comprehensive physical security measures, including access controls, surveillance systems, and perimeter security, to protect our facilities and workplaces. Our security personnel are trained to respond effectively to any security incidents or breaches.
-
-    - heading: Can you explain your approach to risk management and mitigation?
-      content: Our approach to risk management involves identifying potential security risks, assessing their likelihood and potential impact, and implementing proactive measures to mitigate or eliminate these risks. We regularly review and update our risk management strategies to adapt to evolving threats.
-
-    - heading: What type of background checks or screening processes do you implement for your workforce?
-      content: We conduct thorough background checks and screening processes for all employees and contractors, including criminal background checks, employment verification, and reference checks. These measures help ensure the integrity and trustworthiness of our workforce.
-
-
-  
+    - heading: Wie häufig führen Sie Sicherheitsprüfungen und Bewertungen durch?
+      content: Wir führen regelmäßig umfassende Sicherheitsprüfungen und Bewertungen durch, um die Wirksamkeit unserer Sicherheitsmaßnahmen zu gewährleisten und potenzielle Schwachstellen frühzeitig zu identifizieren.
 
 additional:
   enabled: 1
   content: "
-    <h3>Highest Expectations</h3>
-		<p>Our embedded engineering team meets the highest expectations by delivering reliable and high-performance systems tailored to your needs.</p>
-		<ul>
+    <h3>Höchste Erwartungen</h3>
+    <p>Unser Embedded Engineering Team erfüllt die höchsten Erwartungen, indem es zuverlässige und leistungsstarke Systeme liefert, die auf Ihre Bedürfnisse zugeschnitten sind.</p>
+    <ul>
       <li>
-         High speed processing
+         Hochgeschwindigkeitsverarbeitung
       </li>
       <li>
-      Energy efficient solutions
+      Energieeffiziente Lösungen
       </li>
       <li>
-      Advanced security meaures
+      Fortschrittliche Sicherheitsmaßnahmen
       </li>
-		</ul>
+    </ul>
   "
+
 ---
 
-### Introduction
+### Einführung
 
-Our embedded engineering team is dedicated to creating innovative and reliable solutions for a wide range of applications. With extensive expertise in designing, developing, and deploying embedded systems, we ensure high performance and seamless integration for industries such as automotive, medical, industrial automation, and consumer electronics.
+Unser Embedded Engineering Team ist darauf spezialisiert, innovative und zuverlässige Lösungen für eine Vielzahl von Anwendungen zu entwickeln. Mit umfangreicher Expertise in der Gestaltung, Entwicklung und Bereitstellung von Embedded-Systemen gewährleisten wir hohe Leistung und nahtlose Integration für Branchen wie Automotive, Medizintechnik, industrielle Automatisierung und Unterhaltungselektronik.

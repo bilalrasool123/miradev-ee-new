@@ -44,7 +44,7 @@ const PostsDetail = ( props ) => {
       ? window.location.origin
       : '';
   const shareUrl = `${origin}${asPath}`;
-  console.log(shareUrl);
+//   console.log(shareUrl);
 
   return (
     <Layouts>

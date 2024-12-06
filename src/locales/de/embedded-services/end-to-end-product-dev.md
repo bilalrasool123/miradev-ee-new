@@ -2,46 +2,46 @@
 #preview details
 image: "/images/end-to-end-product-2.jpg"
 icon: "/images/serv-icon4.png"
-title: "de End-to-End Product Development"
-short: "We develop products for you from conception to market launch."
+title: "End-to-End Produktentwicklung"
+short: "Wir entwickeln Produkte für Sie von der Konzeption bis hin zum Markteintritt."
 
 #full details
 accordion:
   enabled: 1
-  title: Solving Business Problems
+  title: Lösung von Geschäftsproblemen
   items:
-    - heading: Secure Management and Workforce?
+    - heading: Sicheres Management und Arbeitskräfte?
       content: Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi.
 
-    - heading: Logistics Workforce on Track?
+    - heading: Logistik-Arbeitskräfte auf Kurs?
       content: Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi.
 
-    - heading: Online Courses & Certification?
+    - heading: Online-Kurse und Zertifizierung?
       content: Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi.
 
-    - heading: Figures and data representative of an organization's?
+    - heading: Figuren und Daten, die ein Unternehmen repräsentieren?
       content: Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi.
 
 additional:
   enabled: 1
   content: "
-    <h3>Highest Expectations</h3>
-		<p>End-to-end product development is the cornerstone of innovation, encompassing every stage from conception to delivery.</p>
-		<ul>
+    <h3>Höchste Erwartungen</h3>
+    <p>Unser Embedded-Engineering-Team erfüllt die höchsten Erwartungen, indem es zuverlässige und leistungsstarke Systeme liefert, die auf Ihre Bedürfnisse zugeschnitten sind.</p>
+    <ul>
       <li>
-        Streamlined workflows and optimized resources
+         Hochgeschwindigkeitsverarbeitung
       </li>
       <li>
-        Environmentally friendly practices
+      Energieeffiziente Lösungen
       </li>
       <li>
-        Prioritizing user needs and preferences
+      Fortschrittliche Sicherheitsmaßnahmen
       </li>
-
-		</ul>
+    </ul>
   "
+
 ---
 
-### Introduction
+### Einführung
 
-End-to-end product development encompasses the entire lifecycle of bringing a concept to market, from initial ideation to final deployment. At our core, we specialize in guiding businesses through this comprehensive journey, leveraging our expertise across design, engineering, and manufacturing domains.
+Unser Embedded-Engineering-Team ist darauf spezialisiert, innovative und zuverlässige Lösungen für eine Vielzahl von Anwendungen zu entwickeln. Mit umfassender Expertise in der Gestaltung, Entwicklung und Bereitstellung von Embedded-Systemen gewährleisten wir hohe Leistung und nahtlose Integration in Branchen wie Automobil, Medizin, industrielle Automatisierung und Unterhaltungselektronik.

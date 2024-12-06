@@ -11,7 +11,7 @@ const getServicesDirectory = (language) => {
 
 // Function to get all services data sorted by id
 export function getSortedServicesData(language) {
-  console.log("getSortedServicesData",language)
+  // console.log("getSortedServicesData",language)
   const servicesDirectory = getServicesDirectory(language);
 
   // Get file names under the correct directory based on the language
@@ -89,7 +89,7 @@ export function getAllServicesIds(language) {
 
 // Function to fetch specific service data based on its id
 export async function getServiceData(id, language) {
-  console.log("getServiceData",language)
+  // console.log("getServiceData",language)
   const fullPath = path.join(getServicesDirectory(language), `${id}.md`);
   const fileContents = fs.readFileSync(fullPath, 'utf8');
 

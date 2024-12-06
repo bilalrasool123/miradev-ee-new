@@ -13,12 +13,14 @@ import CallToActionSection from "@components/sections/CallToAction";
 import PartnersSection from "@components/sections/Partners";
 import ServicesSection from "../components/sections/Embed-Services";
 import { useTranslate } from "../contexts/TranslateContext";
-
+// import { useRouter } from 'next/router';
 const Emb_Services = (props) => {
   const { t, i18n } = useTranslate(); // Ensure you have access to `i18n` or equivalent
   const embeddedServices = i18n.t("embedded_services.items", { returnObjects: true });
-  console.log(embeddedServices)
-
+  // console.log(embeddedServices)
+  // const router = useRouter();
+  // const { id } = router.query; // Get the dynamic parameters
+  // console.log("router:",router)
   return (
     <Layouts header={2} footer={2} darkHeader>
       <PageBanner

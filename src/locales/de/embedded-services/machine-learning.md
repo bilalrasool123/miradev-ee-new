@@ -2,46 +2,42 @@
 #preview details
 image: "/images/machine-learning.jpg"
 icon: "/images/serv-icon4.png"
-title: "de Machine Learning"
-short: "We develop machine learning software that optimizes decision-making processes to enhance efficiency."
+title: "Maschinelles Lernen"
+short: "Wir entwickeln Software für maschinelles Lernen, die Entscheidungsprozesse optimiert, um die Effizienz zu steigern."
 
 #full details
 accordion:
   enabled: 1
-  title: Solving Business Problems
+  title: Lösung von Geschäftsproblemen
   items:
-    - heading: Secure Management and Workforce?
+    - heading: Sicheres Management und Arbeitskräfte?
       content: Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi.
 
-    - heading: Logistics Workforce on Track?
+    - heading: Logistik-Arbeitskräfte auf Kurs?
       content: Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi.
 
-    - heading: Online Courses & Certification?
+    - heading: Online-Kurse und Zertifizierung?
       content: Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi.
 
-    - heading: Figures and data representative of an organization's?
+    - heading: Figuren und Daten, die ein Unternehmen repräsentieren?
       content: Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi.
+
+---
 
 additional:
   enabled: 1
   content: "
-    <h3>Highest Expectations</h3>
-		<p>Machine learning represents the pinnacle of data-driven intelligence, empowering systems to analyze vast amounts of data, uncover valuable insights, and make autonomous decisions. </p>
-		<ul>
-      <li>
-        High accuracy levels
-      </li>
-      <li>
-        Transparency and interpretability of machine learning models
-      </li>
-      <li>
-        Upholding ethical standards
-      </li>
-
-		</ul>
+    <h3>Höchste Erwartungen</h3>
+    <p>Unser Team für maschinelles Lernen erfüllt höchste Erwartungen, indem es Lösungen liefert, die die Effizienz steigern und Entscheidungsprozesse optimieren.</p>
+    <ul>
+      <li>Erhöhte Prozessgeschwindigkeit</li>
+      <li>Optimierte Ressourcennutzung</li>
+      <li>Erweiterte Vorhersagegenauigkeit</li>
+    </ul>
   "
+
 ---
 
-### Introduction
+### Einführung
 
-Machine learning is revolutionizing the way we perceive and interact with data, empowering systems to learn from experience, adapt to new information, and make informed decisions autonomously. At the forefront of this transformation, our team specializes in harnessing the power of machine learning to unlock insights, drive innovation, and solve complex problems across industries.
+Unser Team für maschinelles Lernen ist darauf spezialisiert, maßgeschneiderte Lösungen zu entwickeln, die Ihre Entscheidungsprozesse und Betriebsabläufe durch fortschrittliche Algorithmen und Modelle optimieren. Mit unserer Expertise in der künstlichen Intelligenz bieten wir Ihnen die Werkzeuge, um Ihre Effizienz in verschiedenen Bereichen zu steigern – von der Automatisierung von Aufgaben bis zur Verbesserung der Datennutzung.

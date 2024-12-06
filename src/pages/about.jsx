@@ -230,7 +230,7 @@ export default About;
 
 export async function getStaticProps() {
   const allTeam = getSortedTeamData();
-  const allServices = getSortedServicesData();
+  const allServices = getSortedServicesData('en');
 
   return {
     props: {
